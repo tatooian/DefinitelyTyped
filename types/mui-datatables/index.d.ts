@@ -327,7 +327,7 @@ export type MUIDataTableOptions = Partial<{
     selectableRowsOnClick: boolean;
     selectToolbarPlacement: 'replace' | 'above' | 'none';
     serverSide: boolean;
-    setRowProps: (row: any[], rowIndex: number) => object;
+    setRowProps: (row: any[], dataIndex: number, rowIndex: number) => object;
     setTableProps: () => object;
     sort: boolean;
     sortFilterList: boolean;
